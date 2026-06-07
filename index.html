@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portafolio Digital — Julian Andres Oñate Rojas</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVEGACIÓN -->
+<nav>
+  <a href="#inicio" class="nav-brand">AWS<span>Quest</span></a>
+  <ul class="nav-links">
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#presentacion">Perfil</a></li>
+    <li><a href="#objetivos">Objetivos</a></li>
+    <li><a href="#fase1">Fase 1</a></li>
+    <li><a href="#fase2">Fase 2</a></li>
+    <li><a href="#fase3">Fase 3</a></li>
+    <li><a href="#fase4">Fase 4</a></li>
+    <li><a href="#reflexiones">Reflexiones</a></li>
+    <li><a href="#conclusiones">Conclusiones</a></li>
+    <li><a href="#autoevaluacion">Autoevaluación</a></li>
+    <li><a href="#referencias">Referencias</a></li>
+  </ul>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Abrir menú">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#inicio" onclick="closeMobile()">Inicio</a>
+  <a href="#presentacion" onclick="closeMobile()">Perfil</a>
+  <a href="#objetivos" onclick="closeMobile()">Objetivos</a>
+  <a href="#fase1" onclick="closeMobile()">Fase 1</a>
+  <a href="#fase2" onclick="closeMobile()">Fase 2</a>
+  <a href="#fase3" onclick="closeMobile()">Fase 3</a>
+  <a href="#fase4" onclick="closeMobile()">Fase 4</a>
+  <a href="#reflexiones" onclick="closeMobile()">Reflexiones</a>
+  <a href="#conclusiones" onclick="closeMobile()">Conclusiones</a>
+  <a href="#autoevaluacion" onclick="closeMobile()">Autoevaluación</a>
+  <a href="#referencias" onclick="closeMobile()">Referencias</a>
+</div>
+
+<!-- ═══ 1. PORTADA / INICIO ═══ -->
+<section id="inicio">
+  <div class="grid-bg"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Portafolio Digital Integrado · UTS 2026</div>
+    <h1 class="hero-title">
+      Julian Andres<br>Oñate Rojas
+      <span class="highlight">Desplegando en AWS</span>
+    </h1>
+    <p class="hero-subtitle">
+      Tecnología en Desarrollo de Sistemas Informáticos · Sexto Semestre ·
+      Desarrollo de Contenidos Digitales y Multimediales
+    </p>
+    <div class="hero-meta">
+      <div class="hero-chip">Docente: Luz Karime Castellanos Joya</div>
+      <div class="hero-chip">UTS Bucaramanga</div>
+      <div class="hero-chip">Junio 2026</div>
+    </div>
+  </div>
+  <div class="scroll-indicator">SCROLL</div>
+</section>
+
+<!-- ═══ 2. PRESENTACIÓN PERSONAL ═══ -->
+<section id="presentacion">
+  <div class="section-container">
+    <div class="section-label">02 / presentación personal</div>
+    <h2 class="section-title">¿Quién soy?</h2>
+
+    <div class="profile-grid reveal">
+      <div>
+        <div class="profile-avatar">JO</div>
+        <div class="profile-info">
+          <h3>Julian Andres Oñate Rojas</h3>
+          <p class="role">Estudiante · Desarrollador en formación</p>
+          <div class="profile-links">
+            <a href="#">📍 Bucaramanga, Santander</a>
+            <a href="#">🎓 UTS · Sexto Semestre</a>
+            <a href="#">💻 Tecnología en Desarrollo de Sistemas</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p style="color:var(--text-secondary); font-weight:300; margin-bottom:1.25rem;">
+          Estudiante de sexto semestre del programa de Tecnología en Desarrollo de Sistemas 
+          Informáticos en las Unidades Tecnológicas de Santander. Apasionado por el desarrollo 
+          web, la computación en la nube y la creación de contenidos digitales educativos que 
+          democraticen el acceso al conocimiento tecnológico.
+        </p>
+        <p style="color:var(--text-secondary); font-weight:300; margin-bottom:1.25rem;">
+          Este portafolio documenta el proceso de aprendizaje desarrollado durante la 
+          asignatura <strong style="color:var(--text-primary)">Desarrollo de Contenidos Digitales y Multimediales</strong>, 
+          integrando herramientas de diseño digital, inteligencia artificial, programación 
+          educativa y desarrollo web alrededor del tema central: el despliegue de aplicaciones 
+          en Amazon Web Services (AWS).
+        </p>
+        <div class="competencias">
+          <span class="tag">HTML5 / CSS3</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Scratch</span>
+          <span class="tag">App Inventor</span>
+          <span class="tag">AWS Cloud</span>
+          <span class="tag">IA Generativa</span>
+          <span class="tag">Diseño Digital</span>
+          <span class="tag">GitHub</span>
+          <span class="tag">Gamma.app</span>
+          <span class="tag">Canva</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 3. INTRODUCCIÓN Y OBJETIVOS ═══ -->
+<section id="objetivos" style="background:var(--section-bg)">
+  <div class="section-container">
+    <div class="section-label">03 / introducción y objetivos</div>
+    <h2 class="section-title">Propósito del Portafolio</h2>
+    <p class="section-desc">
+      Un portafolio digital que integra aprendizajes del semestre en torno a un tema 
+      real y relevante para el mercado tecnológico.
+    </p>
+
+    <div class="card-grid-2 reveal">
+      <div class="card">
+        <div class="card-tag">Objetivo general</div>
+        <p class="card-text">
+          Integrar y presentar de manera organizada, creativa e interactiva las evidencias 
+          de aprendizaje desarrolladas durante el semestre, demostrando competencias en 
+          diseño de contenidos digitales, uso de herramientas tecnológicas, inteligencia 
+          artificial, programación educativa y desarrollo de recursos multimediales.
+        </p>
+      </div>
+      <div class="card">
+        <div class="card-tag">Temática central</div>
+        <p class="card-text">
+          Todas las fases del portafolio giran en torno al proceso de 
+          <strong>despliegue de una aplicación en Amazon Web Services (AWS)</strong>, 
+          plataforma líder en computación en la nube con más del 30% del mercado global. 
+          Esta temática conecta el aprendizaje académico con competencias de alta demanda 
+          en el mercado laboral tecnológico colombiano.
+        </p>
+      </div>
+    </div>
+
+    <div class="card-grid-3 reveal" style="margin-top:1.25rem">
+      <div class="card">
+        <div class="card-icon">🌐</div>
+        <h3 class="card-title">Página Web Educativa</h3>
+        <p class="card-text">Publicada en GitHub Pages con HTML5, CSS3 y JS. Responsiva, navegable y accesible en línea.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🤖</div>
+        <h3 class="card-title">IA Responsable</h3>
+        <p class="card-text">Uso ético y transparente de ChatGPT, Gemini y Canva IA con prompts documentados.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🎮</div>
+        <h3 class="card-title">Proyectos Interactivos</h3>
+        <p class="card-text">Juego educativo en Scratch y app de quiz en App Inventor sobre servicios AWS.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 4. FASE 1 ═══ -->
+<section id="fase1">
+  <div class="section-container">
+    <div class="section-label">04 / fase 1</div>
+    <h2 class="section-title">Portafolio inicial entregado</h2>
+    <p class="section-desc">Contenido original de la primera entrega, integrado directamente en este portafolio consolidado.</p>
+
+    <div class="card-grid-2 reveal">
+      <div class="card">
+        <h3 class="card-title">Presentación del Portafolio</h3>
+        <p class="card-text">Este portafolio digital reúne las evidencias desarrolladas durante el curso Desarrollo de Contenidos Digitales y Multimediales. El objetivo es demostrar la creación e integración de recursos educativos digitales utilizando herramientas tecnológicas.</p>
+      </div>
+      <div class="card">
+        <h3 class="card-title">Reflexión – Diseño de Contenidos Digitales</h3>
+        <p class="card-text">El diseño de contenidos digitales educativos permite integrar elementos multimedia como texto, imagen, audio y video para facilitar los procesos de enseñanza y aprendizaje.</p>
+        <p class="card-text">La teoría multimedia de Richard Mayer plantea que los estudiantes aprenden mejor cuando se combinan adecuadamente elementos visuales y auditivos, evitando la sobrecarga cognitiva.</p>
+        <p class="card-text">Actualmente el uso de plataformas digitales, recursos interactivos y herramientas de inteligencia artificial permite desarrollar experiencias educativas más dinámicas y accesibles.</p>
+      </div>
+    </div>
+
+    <div class="card reveal">
+      <h3 class="card-title">Juego Interactivo en Scratch</h3>
+      <p class="card-text">Vista previa del proyecto desarrollado en Scratch.</p>
+      <div class="iframe-wrap">
+        <iframe src="https://scratch.mit.edu/projects/1285986436/embed" allowtransparency="true" width="100%" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="card reveal">
+      <h3 class="card-title">Video Explicativo del Proyecto</h3>
+      <div class="iframe-wrap">
+        <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/mD5tF7gqGko" title="Video del Proyecto" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="card reveal">
+      <h3 class="card-title">Documentos y Evidencias del Proyecto</h3>
+      <h3 class="card-title" style="margin-top:1.25rem">Documento 1</h3>
+      <div class="iframe-wrap">
+        <iframe src="https://drive.google.com/file/d/1WOWmqFN39MtJ1CeW_jY8vIvwwuBMFvmx/preview" height="500"></iframe>
+      </div>
+      <p><a class="doc-link" href="https://drive.google.com/file/d/1WOWmqFN39MtJ1CeW_jY8vIvwwuBMFvmx/view?usp=drive_link" target="_blank">Abrir documento</a></p>
+
+      <h3 class="card-title" style="margin-top:1.25rem">Presentación</h3>
+      <div class="iframe-wrap">
+        <iframe src="https://docs.google.com/presentation/d/1K7TJ1yAVTy4_y7aUb1ZhTFgsS5didVKB/preview" height="500"></iframe>
+      </div>
+      <p><a class="doc-link" href="https://docs.google.com/presentation/d/1K7TJ1yAVTy4_y7aUb1ZhTFgsS5didVKB/edit?usp=drive_link" target="_blank">Abrir presentación</a></p>
+
+      <h3 class="card-title" style="margin-top:1.25rem">Documento 2</h3>
+      <div class="iframe-wrap">
+        <iframe src="https://drive.google.com/file/d/1semLjLgYutgwxGQPM2iAONK7W-9s6aGy/preview" height="500"></iframe>
+      </div>
+      <p><a class="doc-link" href="https://drive.google.com/file/d/1semLjLgYutgwxGQPM2iAONK7W-9s6aGy/view?usp=drive_link" target="_blank">Abrir documento</a></p>
+
+      <h3 class="card-title" style="margin-top:1.25rem">Documento 3</h3>
+      <div class="iframe-wrap">
+        <iframe src="https://drive.google.com/file/d/1kKXDqPUW2Z3N4dKCBtsC6Hh3lSNtxi5y/preview" height="500"></iframe>
+      </div>
+      <p><a class="doc-link" href="https://drive.google.com/file/d/1kKXDqPUW2Z3N4dKCBtsC6Hh3lSNtxi5y/view?usp=drive_link" target="_blank">Abrir documento</a></p>
+
+      <h3 class="card-title" style="margin-top:1.25rem">Documento 4</h3>
+      <div class="iframe-wrap">
+        <iframe src="https://drive.google.com/file/d/12YNGqy5ESLe05vCLYUwp-H4HA2fFcu4Y/preview" height="500"></iframe>
+      </div>
+      <p><a class="doc-link" href="https://drive.google.com/file/d/12YNGqy5ESLe05vCLYUwp-H4HA2fFcu4Y/view?usp=drive_link" target="_blank">Abrir documento</a></p>
+
+      <h3 class="card-title" style="margin-top:1.25rem">Documento de Texto</h3>
+      <div class="iframe-wrap">
+        <iframe src="https://docs.google.com/document/d/1NrlBQmFjS3PrycDFVm17r2gtrg2AFHC9/preview" height="500"></iframe>
+      </div>
+      <p><a class="doc-link" href="https://docs.google.com/document/d/1NrlBQmFjS3PrycDFVm17r2gtrg2AFHC9/edit?usp=drive_link" target="_blank">Abrir documento</a></p>
+    </div>
+
+    <div class="card reveal">
+      <h3 class="card-title">Uso Ético de Inteligencia Artificial</h3>
+      <p class="card-text">Durante el desarrollo de este portafolio se utilizaron herramientas de inteligencia artificial como apoyo para organizar la información, mejorar la estructura del sitio web y optimizar la presentación de los recursos digitales.</p>
+      <p class="card-text">Estas herramientas fueron utilizadas de manera responsable, respetando los principios académicos y manteniendo siempre el criterio del estudiante en la elaboración del contenido.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 5. FASE 2 — IA y Programación Educativa ═══ -->
+<section id="fase2" style="background:var(--section-bg)">
+  <div class="section-container">
+    <div class="section-label">05 / fase 2</div>
+    <h2 class="section-title">IA y Programación Educativa</h2>
+    <p class="section-desc">11–12 de mayo · ChatGPT, Google Gemini y Canva IA aplicados a la enseñanza de AWS.</p>
+
+    <div class="card-grid-3 reveal">
+      <div class="card">
+        <div class="card-icon">💬</div>
+        <h3 class="card-title">Prompts Educativos</h3>
+        <p class="card-text">4 prompts con estructura completa: rol + contexto + tarea + formato + restricción. Orientados a generar recursos pedagógicos sobre servicios AWS.</p>
+        <div style="margin-top:1rem; background:var(--aws-dark); border-radius:8px; padding:0.85rem;">
+          <p style="font-family:var(--font-mono); font-size:0.7rem; color:rgba(255,153,0,0.85); line-height:1.5;">
+            Rol: experto en pedagogía tecnológica<br>
+            Contexto: curso universitario sin previos<br>
+            Tarea: explicar EC2 con analogía cotidiana<br>
+            Formato: 200 palabras, sin tecnicismos
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">📝</div>
+        <h3 class="card-title">Recursos de Texto con IA</h3>
+        <p class="card-text">Glosario de 10 términos AWS, guía de despliegue en 8 pasos y evaluación de 10 preguntas con retroalimentación. Todos editados pedagógicamente.</p>
+        <div style="margin-top:1rem;">
+          <p style="font-size:0.8rem; color:var(--text-secondary);">Herramientas: ChatGPT · Google Gemini</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🎨</div>
+        <h3 class="card-title">Recursos Visuales con IA</h3>
+        <p class="card-text">5 imágenes generadas con Canva IA ilustrando infraestructura cloud, arquitectura AWS y flujo de datos. Cada imagen incluye el prompt utilizado.</p>
+        <div style="margin-top:1rem;">
+          <p style="font-size:0.8rem; color:var(--text-secondary);">Herramienta: Canva Magic AI</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-grid-2 reveal" style="margin-top:1.25rem">
+
+      <div class="card">
+        <div class="card-tag">Actividad de programación creativa</div>
+        <div class="fase-header" style="margin-bottom:0.75rem">
+          <div class="fase-num">F2.4</div>
+          <div class="fase-title-group">
+            <h3>Simulación AWS con Scratch + IA</h3>
+            <div class="fecha">Herramientas: Scratch · ChatGPT</div>
+          </div>
+        </div>
+        <p class="card-text">Juego o historia interactiva educativa desarrollada con Scratch, apoyada en ChatGPT para la generación del guion y la lógica pedagógica. Incluye descripción del prompt utilizado y reflexión sobre el proceso creativo de combinar IA con programación visual.</p>
+        <div style="margin-top:1rem; background:var(--aws-dark); border-radius:8px; padding:0.85rem;">
+          <p style="font-family:var(--font-mono); font-size:0.7rem; color:rgba(255,153,0,0.85); line-height:1.6;">
+            Prompt usado:<br>
+            "Actúa como diseñador instruccional. Crea el guion de una historia interactiva en Scratch de 3 escenas que enseñe qué es AWS EC2 a estudiantes sin conocimientos previos. Formato: escena, personajes, diálogo y objetivo pedagógico de cada escena."
+          </p>
+        </div>
+        <div style="margin-top:0.75rem; padding:0.6rem 0.85rem; background:rgba(255,153,0,0.07); border-radius:8px; border-left:2px solid var(--aws-orange);">
+          <p style="font-size:0.8rem; color:var(--text-secondary);">📎 Ver proyecto en Scratch: <a href="https://scratch.mit.edu" target="_blank" style="color:var(--aws-orange);">scratch.mit.edu</a></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-tag">Ejercicio de personalización del aprendizaje</div>
+        <div class="fase-header" style="margin-bottom:0.75rem">
+          <div class="fase-num">F2.5</div>
+          <div class="fase-title-group">
+            <h3>Evaluación Adaptada con IA</h3>
+            <div class="fecha">Herramientas: ChatGPT · Gemini</div>
+          </div>
+        </div>
+        <p class="card-text">Generación de ejercicios y evaluaciones adaptadas al nivel del estudiante usando IA. Se produjeron 3 versiones del mismo contenido AWS para distintos perfiles: principiante, intermedio y avanzado, demostrando la capacidad de personalización de los modelos generativos.</p>
+        <div style="margin-top:1rem; display:flex; flex-direction:column; gap:0.5rem;">
+          <div style="background:var(--section-bg); border-radius:8px; padding:0.65rem 0.85rem; border-left:2px solid #28A745;">
+            <p style="font-size:0.78rem; font-weight:600; color:#1a7a30; margin-bottom:0.2rem;">Nivel principiante</p>
+            <p style="font-size:0.75rem; color:var(--text-secondary);">¿Para qué sirve Amazon EC2? (selección múltiple con analogías cotidianas)</p>
+          </div>
+          <div style="background:var(--section-bg); border-radius:8px; padding:0.65rem 0.85rem; border-left:2px solid var(--aws-orange);">
+            <p style="font-size:0.78rem; font-weight:600; color:#C47700; margin-bottom:0.2rem;">Nivel intermedio</p>
+            <p style="font-size:0.75rem; color:var(--text-secondary);">¿Cuándo usar EC2 vs Lambda? (caso de uso con justificación)</p>
+          </div>
+          <div style="background:var(--section-bg); border-radius:8px; padding:0.65rem 0.85rem; border-left:2px solid #1A73E8;">
+            <p style="font-size:0.78rem; font-weight:600; color:#1A73E8; margin-bottom:0.2rem;">Nivel avanzado</p>
+            <p style="font-size:0.75rem; color:var(--text-secondary);">Diseña la arquitectura de una app web en AWS con mínimo 3 servicios (abierta)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card reveal" style="margin-top:1.25rem">
+      <h3 class="card-title" style="margin-bottom:1rem">Reflexión sobre el Uso de IA</h3>
+      <p class="card-text">
+        Las herramientas de IA fueron utilizadas como instrumentos de apoyo, no como reemplazo del aprendizaje. 
+        Todos los outputs fueron <strong style="color:var(--text-primary)">editados pedagógicamente</strong> para 
+        verificar precisión técnica, adaptar el lenguaje al nivel del público objetivo e incorporar contextos 
+        locales relevantes. El uso de IA se declara de forma transparente en cada recurso del portafolio, 
+        siguiendo las recomendaciones de la UNESCO (2023) sobre uso ético de IA en educación.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 6. FASE 3 — SCRATCH ═══ -->
+<section id="fase3">
+  <div class="section-container">
+    <div class="section-label">06 / fase 3</div>
+    <h2 class="section-title">Proyecto en Scratch</h2>
+    <p class="section-desc">18–19 de mayo · Ejercicios interactivos desarrollados en Scratch sobre AWS.</p>
+
+    <!-- Ejercicio 1 -->
+    <div class="card reveal" style="margin-top:1.5rem">
+      <div class="card-tag">Ejercicio 1</div>
+      <h3 class="card-title">El servidor viaja a AWS</h3>
+      <p class="card-text" style="margin-bottom:1rem">Juega este ejercicio interactivo directamente:</p>
+      <div style="display:flex; justify-content:center; margin:1rem 0;">
+        <iframe src="https://scratch.mit.edu/projects/1322104236/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen style="border-radius:8px;"></iframe>
+      </div>
+    </div>
+
+    <!-- Ejercicio 2 -->
+    <div class="card reveal">
+      <div class="card-tag">Ejercicio 2</div>
+      <h3 class="card-title">Cargando la app en la nube</h3>
+      <p class="card-text" style="margin-bottom:1rem">Juega este ejercicio interactivo directamente:</p>
+      <div style="display:flex; justify-content:center; margin:1rem 0;">
+        <iframe src="https://scratch.mit.edu/projects/1322107040/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen style="border-radius:8px;"></iframe>
+      </div>
+    </div>
+
+    <!-- Ejercicio 3 -->
+    <div class="card reveal">
+      <div class="card-tag">Ejercicio 3</div>
+      <h3 class="card-title">Elige tu servicio AWS</h3>
+      <p class="card-text" style="margin-bottom:1rem">Juega este ejercicio interactivo directamente:</p>
+      <div style="display:flex; justify-content:center; margin:1rem 0;">
+        <iframe src="https://scratch.mit.edu/projects/1322110648/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen style="border-radius:8px;"></iframe>
+      </div>
+    </div>
+
+    <div class="card reveal" style="margin-top:1.25rem; border-left:3px solid var(--aws-orange); border-radius:0 var(--radius-lg) var(--radius-lg) 0;">
+      <h3 class="card-title">Explicación Pedagógica</h3>
+      <p class="card-text">
+        AWS Quest enseña los conceptos fundamentales del despliegue en AWS a través de 3 escenarios de decisión: 
+        seleccionar el servicio correcto (EC2), configurar la región adecuada (us-east-1) y ejecutar el deploy 
+        en el momento correcto. El formato de juego activa mecanismos de aprendizaje por retroalimentación 
+        inmediata. Usa variables, condicionales, bucles y mensajes (broadcasts) de nivel intermedio en Scratch.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 7. FASE 4 — APP INVENTOR ═══ -->
+<section id="fase4" style="background:var(--section-bg)">
+  <div class="section-container">
+    <div class="section-label">07 / fase 4</div>
+    <h2 class="section-title">App Inventor - AWS Quiz</h2>
+    <p class="section-desc">25–26 de mayo · AWS Quiz: app móvil educativa con quiz de selección múltiple para Android.</p>
+
+    <!-- Videos de App Inventor -->
+    <div class="card reveal" style="margin-top:1.5rem">
+        <h3 class="card-title">Videos de la aplicación</h3>
+        
+        <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; margin:1rem 0;">
+          <div style="max-width:485px; width:100%;">
+            <iframe width="485" height="862" src="https://www.youtube-nocookie.com/embed/mHA-SYTTxEs" title="June 7, 2026 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%; height:auto; aspect-ratio:485/862; border-radius:8px;"></iframe>
+          </div>
+
+          <div style="max-width:387px; width:100%;">
+            <iframe width="387" height="859" src="https://www.youtube-nocookie.com/embed/HbYKo1n81_o" title="June 7, 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%; height:auto; aspect-ratio:387/859; border-radius:8px;"></iframe>
+          </div>
+
+          <div style="max-width:387px; width:100%;">
+            <iframe width="387" height="859" src="https://www.youtube-nocookie.com/embed/XZw7wE7QGCg" title="June 7, 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%; height:auto; aspect-ratio:387/859; border-radius:8px;"></iframe>
+          </div>
+
+          <div style="max-width:388px; width:100%;">
+            <iframe width="388" height="862" src="https://www.youtube-nocookie.com/embed/T1wWFLIRr0U" title="June 7, 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%; height:auto; aspect-ratio:388/862; border-radius:8px;"></iframe>
+          </div>
+
+          <div style="max-width:388px; width:100%;">
+            <iframe width="388" height="862" src="https://www.youtube-nocookie.com/embed/eYT8JJyH7_g" title="June 7, 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%; height:auto; aspect-ratio:388/862; border-radius:8px;"></iframe>
+          </div>
+
+          <div style="max-width:388px; width:100%;">
+            <iframe width="388" height="862" src="https://www.youtube-nocookie.com/embed/vYMJ6pBoldk" title="June 7, 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%; height:auto; aspect-ratio:388/862; border-radius:8px;"></iframe>
+          </div>
+        </div>
+
+        <div style="background:rgba(255,153,0,0.08); border-left:3px solid var(--aws-orange); padding:1rem; border-radius:0 8px 8px 0; margin-top:1rem;">
+          <h4 style="margin:0 0 0.5rem 0; color:rgba(255,153,0,0.9);">Explicación de los videos</h4>
+          <p class="card-text" style="margin:0;">
+            Los videos demuestran el flujo completo de <strong>AWS Quiz</strong>, la aplicación móvil desarrollada en App Inventor:
+          </p>
+          <ul style="margin:0.5rem 0 0 1.5rem; color:var(--text-secondary); font-size:0.9rem;">
+            <li><strong>Pantalla de bienvenida:</strong> Introducción a la app con el botón para iniciar el quiz.</li>
+            <li><strong>Preguntas interactivas:</strong> Interfaz del quiz con 3 preguntas sobre AWS (EC2, S3, regiones).</li>
+            <li><strong>Sistema de puntuación:</strong> Retroalimentación en tiempo real y acumulación de puntos.</li>
+            <li><strong>Navegación multipantalla:</strong> Demostración del bloque "open another screen" de App Inventor.</li>
+            <li><strong>Lógica de condicionales:</strong> Evaluación de respuestas y mensajes de resultado según el desempeño.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 8. REFLEXIONES ═══ -->
+<section id="reflexiones">
+  <div class="section-container">
+    <div class="section-label">09 / reflexiones y aprendizajes</div>
+    <h2 class="section-title">¿Qué aprendí en cada fase?</h2>
+    <p class="section-desc">Reflexiones críticas por fase y conexión con el perfil profesional del desarrollador.</p>
+
+    <div style="display:flex; flex-direction:column; gap:1rem" class="reveal">
+      <div class="reflexion-card">
+        <div class="reflexion-fase">Fase 1</div>
+        <p class="reflexion-text">
+          "Aprendí que el diseño digital no es solo estética, sino comunicación estructurada. 
+          La selección de herramientas como Gamma.app me mostró cómo la IA puede acelerar la 
+          producción sin reemplazar el criterio del diseñador. El principio de coherencia de Mayer 
+          me hizo replantear cuántos elementos visuales son realmente necesarios para comunicar un 
+          concepto sin sobrecargar al aprendiz."
+        </p>
+      </div>
+      <div class="reflexion-card">
+        <div class="reflexion-fase">Fase 2 — IA y Programación Educativa</div>
+        <p class="reflexion-text">
+          "La experiencia de diseñar prompts estructurados cambió mi relación con las herramientas 
+          de IA: pasé de usarlas como caja negra a usarlas como herramientas dirigidas con propósito. 
+          Editar pedagógicamente los outputs de ChatGPT y Gemini me enseñó a identificar sesgos, 
+          imprecisiones técnicas y generalizaciones vacías que un lector desprevenido podría asumir 
+          como verdades absolutas."
+        </p>
+      </div>
+      <div class="reflexion-card">
+        <div class="reflexion-fase">Fase 3 — Proyecto en Scratch</div>
+        <p class="reflexion-text">
+          "Diseñar AWS Quest me hizo entender que la gamificación educativa no es agregar puntos 
+          a un contenido aburrido: es reimaginar el contenido como una experiencia de decisión. 
+          Los errores del jugador son oportunidades de aprendizaje, no fracasos. La depuración 
+          del sistema de mensajes entre sprites me enseñó más sobre programación basada en eventos 
+          que cualquier explicación teórica."
+        </p>
+      </div>
+      <div class="reflexion-card">
+        <div class="reflexion-fase">Fase 4 — App Inventor</div>
+        <p class="reflexion-text">
+          "Desarrollar AWS Quiz en App Inventor me reveló la complejidad oculta de una aplicación 
+          aparentemente simple: gestionar estados, controlar la visibilidad de componentes y 
+          sincronizar variables globales requiere un modelo mental claro del flujo de la app. 
+          Esta experiencia me motivó a explorar desarrollo nativo en Android Studio como siguiente 
+          paso en mi formación profesional."
+        </p>
+      </div>
+      <div class="reflexion-card">
+        <div class="reflexion-fase">Portafolio web final</div>
+        <p class="reflexion-text">
+          "Construir este portafolio desde cero con HTML5, CSS3 y JavaScript me permitió combinar diseño 
+          y técnica en un producto final que presenta todas las fases del proyecto. Cada decisión, desde 
+          el color hasta la navegación, contribuye a una experiencia fluida para el visitante." 
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 9. CONCLUSIONES ═══ -->
+<section id="conclusiones" style="background:var(--section-bg)">
+  <div class="section-container">
+    <div class="section-label">10 / conclusiones</div>
+    <h2 class="section-title">Lo que me llevo</h2>
+    <p class="section-desc">Competencias consolidadas, proyección profesional y propuestas de mejora.</p>
+
+    <div class="conclusion-grid reveal">
+      <div class="conclusion-item">
+        <div class="conclusion-num">01</div>
+        <h4>Integración Tecnológica</h4>
+        <p>Capacidad de articular herramientas diversas (diseño, IA, programación, web) en torno a un propósito educativo coherente.</p>
+      </div>
+      <div class="conclusion-item">
+        <div class="conclusion-num">02</div>
+        <h4>Pensamiento Computacional</h4>
+        <p>Habilidad de descomponer problemas pedagógicos complejos en soluciones programables, transferible más allá del código.</p>
+      </div>
+      <div class="conclusion-item">
+        <div class="conclusion-num">03</div>
+        <h4>IA Responsable</h4>
+        <p>Postura profesional reflexiva frente a la IA: usar, documentar, editar y declarar el uso con transparencia académica.</p>
+      </div>
+      <div class="conclusion-item">
+        <div class="conclusion-num">04</div>
+        <h4>Proyección AWS</h4>
+        <p>Base conceptual en computación en la nube que abre el camino hacia certificaciones AWS y roles en cloud computing.</p>
+      </div>
+    </div>
+
+    <div class="card reveal" style="margin-top:1.5rem; background:var(--aws-dark); border-color:rgba(255,153,0,0.2);">
+      <h3 class="card-title" style="color:#fff; margin-bottom:0.75rem">Propuestas de mejora futura</h3>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:0.75rem;">
+        <div style="background:rgba(255,153,0,0.08); border-radius:8px; padding:0.85rem;">
+          <p style="font-size:0.82rem; color:rgba(255,255,255,0.65);">Analíticas de aprendizaje en la página web para registrar interacciones de usuarios.</p>
+        </div>
+        <div style="background:rgba(255,153,0,0.08); border-radius:8px; padding:0.85rem;">
+          <p style="font-size:0.82rem; color:rgba(255,255,255,0.65);">Expandir AWS Quiz con Lambda, IAM, CloudFront y sistema de dificultad progresiva.</p>
+        </div>
+        <div style="background:rgba(255,153,0,0.08); border-radius:8px; padding:0.85rem;">
+          <p style="font-size:0.82rem; color:rgba(255,255,255,0.65);">Traducir el portafolio al inglés para ampliar el alcance a comunidades globales.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 10. AUTOEVALUACIÓN ═══ -->
+<section id="autoevaluacion">
+  <div class="section-container">
+    <div class="section-label">11 / autoevaluación</div>
+    <h2 class="section-title">¿Cómo me evalúo?</h2>
+    <p class="section-desc">Autoevaluación cuantitativa y cualitativa del proceso de aprendizaje del semestre.</p>
+
+    <div class="eval-grid reveal">
+      <div class="eval-item">
+        <div class="eval-label">
+          <span>Diseño Digital y Contenidos</span>
+          <span class="eval-score">4.5 / 5.0</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" style="width:90%"></div></div>
+      </div>
+      <div class="eval-item">
+        <div class="eval-label">
+          <span>Uso de IA Generativa</span>
+          <span class="eval-score">4.3 / 5.0</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" style="width:86%"></div></div>
+      </div>
+      <div class="eval-item">
+        <div class="eval-label">
+          <span>Proyecto Scratch</span>
+          <span class="eval-score">4.6 / 5.0</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" style="width:92%"></div></div>
+      </div>
+      <div class="eval-item">
+        <div class="eval-label">
+          <span>App Inventor</span>
+          <span class="eval-score">4.2 / 5.0</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" style="width:84%"></div></div>
+      </div>
+      <div class="eval-item">
+        <div class="eval-label">
+          <span>Desarrollo Web (HTML/CSS/JS)</span>
+          <span class="eval-score">4.4 / 5.0</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" style="width:88%"></div></div>
+      </div>
+      <div class="eval-item">
+        <div class="eval-label">
+          <span>Reflexión Crítica y Académica</span>
+          <span class="eval-score">4.5 / 5.0</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" style="width:90%"></div></div>
+      </div>
+    </div>
+
+    <div class="card-grid-2 reveal" style="margin-top:2rem">
+      <div class="card">
+        <h3 class="card-title">¿Qué aprendí?</h3>
+        <p class="card-text">Aprendí a integrar herramientas digitales diversas con propósito pedagógico coherente, a usar la IA con responsabilidad y a comunicar conceptos tecnológicos complejos de manera accesible. AWS dejó de ser un conjunto de siglas para convertirse en un ecosistema que entiendo y puedo enseñar.</p>
+      </div>
+      <div class="card">
+        <h3 class="card-title">¿Cómo aplico esto profesionalmente?</h3>
+        <p class="card-text">Las competencias de diseño instruccional digital, desarrollo web front-end y comunicación tecnológica son directamente aplicables a roles como desarrollador de e-learning, diseñador de contenidos digitales o desarrollador web. El conocimiento de AWS abre la puerta a roles en computación en la nube.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 11. REFERENCIAS ═══ -->
+<section id="referencias" style="background:var(--section-bg)">
+  <div class="section-container">
+    <div class="section-label">12 / referencias y herramientas</div>
+    <h2 class="section-title">Fuentes y Recursos</h2>
+    <p class="section-desc">Referencias bibliográficas en normas APA 7.ª edición y herramientas utilizadas.</p>
+
+    <div class="card reveal" style="margin-bottom:2rem">
+      <h3 class="card-title" style="margin-bottom:1.25rem">Referencias bibliográficas (APA 7)</h3>
+      <div>
+        <div class="ref-item">Amazon Web Services. (2024). <em>Documentación oficial de Amazon Web Services.</em> Amazon Web Services, Inc. <a href="https://docs.aws.amazon.com" target="_blank">https://docs.aws.amazon.com</a></div>
+        <div class="ref-item">Deterding, S., Dixon, D., Khaled, R., & Nacke, L. (2011). From game design elements to gamefulness: Defining gamification. <em>Proceedings of the 15th International Academic MindTrek Conference,</em> 9–15. https://doi.org/10.1145/2181037.2181040</div>
+        <div class="ref-item">Gamma Technologies Inc. (2024). <em>Gamma.app — Creación de presentaciones con IA.</em> <a href="https://gamma.app" target="_blank">https://gamma.app</a></div>
+        <div class="ref-item">GitHub, Inc. (2024). <em>GitHub Pages — Publicación de sitios web estáticos.</em> <a href="https://pages.github.com" target="_blank">https://pages.github.com</a></div>
+        <div class="ref-item">Google LLC. (2024). <em>Google Gemini — Inteligencia artificial generativa.</em> <a href="https://gemini.google.com" target="_blank">https://gemini.google.com</a></div>
+        <div class="ref-item">Mayer, R. E. (2009). <em>Multimedia learning</em> (2.ª ed.). Cambridge University Press. https://doi.org/10.1017/CBO9780511811678</div>
+        <div class="ref-item">MIT App Inventor. (2024). <em>MIT App Inventor 2.</em> <a href="http://appinventor.mit.edu" target="_blank">http://appinventor.mit.edu</a></div>
+        <div class="ref-item">MIT Media Lab. (2024). <em>Scratch — Programación creativa para todos.</em> <a href="https://scratch.mit.edu" target="_blank">https://scratch.mit.edu</a></div>
+        <div class="ref-item">OpenAI. (2024). <em>ChatGPT — Asistente conversacional de IA.</em> <a href="https://chat.openai.com" target="_blank">https://chat.openai.com</a></div>
+        <div class="ref-item">Resnick, M. et al. (2009). Scratch: Programming for all. <em>Communications of the ACM, 52</em>(11), 60–67. https://doi.org/10.1145/1592761.1592779</div>
+        <div class="ref-item">UNESCO. (2023). <em>Guidance for generative AI in education and research.</em> https://doi.org/10.54675/PCNF4468</div>
+        <div class="ref-item">W3C. (2018). <em>Web Content Accessibility Guidelines (WCAG) 2.1.</em> <a href="https://www.w3.org/TR/WCAG21/" target="_blank">https://www.w3.org/TR/WCAG21/</a></div>
+        <div class="ref-item">Wing, J. M. (2006). Computational thinking. <em>Communications of the ACM, 49</em>(3), 33–35. https://doi.org/10.1145/1118178.1118215</div>
+      </div>
+    </div>
+
+    <div class="card-grid-3 reveal">
+      <div class="card">
+        <h3 class="card-title" style="margin-bottom:1rem">Herramientas de Diseño</h3>
+        <ul class="producto-list">
+          <li>Gamma.app — gamma.app</li>
+          <li>Canva IA — canva.com</li>
+          <li>Microsoft Word — microsoft.com</li>
+          <li>TinyPNG — tinypng.com</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 class="card-title" style="margin-bottom:1rem">IA Generativa</h3>
+        <ul class="producto-list">
+          <li>ChatGPT — chat.openai.com</li>
+          <li>Google Gemini — gemini.google.com</li>
+          <li>Claude — claude.ai</li>
+          <li>Canva Magic AI — canva.com</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 class="card-title" style="margin-bottom:1rem">Desarrollo y Publicación</h3>
+        <ul class="producto-list">
+          <li>Scratch — scratch.mit.edu</li>
+          <li>MIT App Inventor — appinventor.mit.edu</li>
+          <li>Visual Studio Code — code.visualstudio.com</li>
+          <li>GitHub Pages — pages.github.com</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Portafolio Digital Integrado · <span class="footer-name">Julian Andres Oñate Rojas</span></p>
+  <p style="margin-top:0.5rem">Desarrollo de Contenidos Digitales y Multimediales · UTS 2026</p>
+  <p style="margin-top:0.5rem; font-size:0.75rem">Docente: Luz Karime Castellanos Joya · Sexto Semestre</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
